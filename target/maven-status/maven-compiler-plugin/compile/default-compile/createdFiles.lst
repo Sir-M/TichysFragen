@@ -1,0 +1,6 @@
+org\tichybot\Question.class
+org\tichybot\Main.class
+org\tichybot\QuestionManager.class
+org\tichybot\QuestionParser.class
+org\tichybot\TichysFragenBot$Constants.class
+org\tichybot\TichysFragenBot.class

@@ -34,7 +34,7 @@ f Nicht-funktionale Eigenschaften beschreiben, was das Produkt nicht tun sollte.
 w Nicht-funktionale Anforderungen sind sowohl Teil des Pflichtenhefts als auch des Lastenhefts.
 f (Hohe) Performanz ist eine funktionale Anforderung.
 w Sicherheit ist eine nicht-funktionale Anforderung.
-w Datenschutz ist eine nichtfunktionale Anforderung.
+w Datenschutz ist eine nicht-funktionale Anforderung.
 w Ein Pflichtenheft spezifiziert die Anforderungen an eine Software in eindeutiger Weise, so dass sie implementiert werden können.
 w Das Pflichtenheft beschreibt nur, was zu implementieren ist und nicht wie.
 f Die Erhebungstechnik „Anwendungsfälle“ hilft bei der Bestimmung der Systemgrenzen und erfasst viel Domänenwissen.
@@ -89,18 +89,6 @@ w Bei Gleichheit 0. Stufe handelt sich um dasselbe Objekt oder die Objekte sind 
 f Bei einer seichten Kopie eines Objekts werden alle Attribute kopiert, ausschließlich der Referenzen auf andere Objekte.
 f Eine Klasse B wird erst dann zu einer Unterklasse einer Klasse A, wenn gezeigt werden kann, dass jedes Exemplar von A auch als ein Exemplar von B gesehen werden kann.
 f static class MyClass {} deklariert in Java eine statische Klasse namens „MyClass“.
-w Die Rolle ACT bei der linguistischen Analyse kann von Verben und Substantiven eingenommen werden.
-w Die Rolle „instrumentum“ wird im UML-Diagramm als Klasse ohne Assoziation zu der Klasse des zugehörigen „agens“ modelliert.
-f Die Rollenkombination DON, PAT und RECP wird in einem UML-Diagramm zu drei Klassen „donor“, „patiens“ und „recipiens“ sowie einer dreistelligen Beziehung zwischen diesen Klassen, die die Übergabe des „patiens“ vom „donor“ an den „recipiens“ modelliert.
-w Die Rollenkombination AG, ACT und INSTR wird in einem UML-Klassendiagramm mit den beiden Klassen „agens“ und „instrumentum“ modelliert sowie einer Methode „actus“ beim „agens“ mit einem Parameter vom Typ „instrumentum“.
-w Das Verb „haben“ steht bei der linguistischen Analyse von Spezifikationstexten oft für eine Aggregation im Modell.
-f Thematische Rollen erfassen den Inhalt von Sätzen über dessen grammatikalische Struktur. Das Subjekt des Satzes wird zu einer Klasse mit dem Prädikat als Methode und dem Objekt des Satzes als Methodenparameter.
-f Der Satz „Ein Bäcker übergibt die Pizza an eine Servicekraft.“ wird im UML-Diagramm als dreistellige Relation mit den Rollen Bäcker DON, Pizza RECP und Servicekraft HAB modelliert.
-f Im Satz „Ein Bäcker übergibt die Pizza an eine Servicekraft.“ muss „übergibt an“ mit der Rolle „actus“ versehen werden.
-w Im Satz „Ein Bäcker knetet Teig mit den Händen.“ erhalten die „Hände“ die Rolle „instrumentum“.
-f Im Satz „Ein Bäcker backt Pizza im Ofen.“ erhält das Wort „Ofen“ die Rolle „locus“.
-f Im Satz „Das Servieren von Pizza übernehmen die Service-Kräfte“ wird „übernehmen“ mit der Rolle „actus“ versehen.
-w Die Sätze „Die Pizzeria Il Calcolatore ist in Karlsruhe.“ und „In Karlsruhe gibt es eine Pizzeria Il Calcolatore.“ sind bezüglich der linguistischen Analyse äquivalent.
 w Das Adaptermuster lässt Klassen zusammenarbeiten, die wegen inkompatibler Schnittstellen ansonsten dazu nicht in der Lage wären.
 w Das Entwurfsmuster Strategie bietet die Möglichkeit, eine Klasse mit einer von mehreren möglichen Verhaltensweisen zu konfigurieren.
 w Das Schlüsselwort final in Java erlaubt es, eine Schablonenmethode so zu definieren, dass Unterklassen den Algorithmus der Schablonenmethode nicht mehr verändern können, sondern nur noch die Implementierung der Einschubmethoden überschreiben bzw. implementieren dürfen.
